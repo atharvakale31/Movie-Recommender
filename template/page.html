@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<style>
+
+	
+	.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;border-radius: 4px;
+ 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+  
+  top: 30%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
+
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+</style>
+<h2 style="text-align:center;font-size:35px" >MOVIE RECOMMENDATIONS</h2>
+
+<form action="call_model">
+  <div style="text-align:center;font-size:35px" for="fname">Enter Movie Name:</div><br>
+  <input class="center-block" type ='text' placeholder="Search.." id="mname" name="mname" value=""><br>
+  
+  <input  class="button button1" type="submit" value="Submit">
+  {% csrf_token %}
+</form> 
+
+
+
+</body>
+</html>
