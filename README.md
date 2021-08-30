@@ -1,10 +1,10 @@
 # Movie Recommender
 *Movie Recommender Django web application using Machine Learning K-Nearest Neighbor method.*
 
-This app uses python Django framework for website application.
-For recommending movies I have used K-Nearest Neighbor method machine learning algorithm.
+- This app uses python Django framework for website application.  
+- K-Nearest Neighbour Method is used to find K closest or most similar movies to Query movie.
 
-watch the demo video hear 👉 https://drive.google.com/file/d/1jeYjF6s0Tm_YeLOUKwlURh4pYGGvdG00/view?usp=sharing
+Demo video 👉 https://drive.google.com/file/d/1jeYjF6s0Tm_YeLOUKwlURh4pYGGvdG00/view?usp=sharing
 
 Screenshots of the project 👇
 
